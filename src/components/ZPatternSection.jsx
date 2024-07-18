@@ -6,7 +6,7 @@ const ZPatternSection = () => {
       {/* First Section: Video on the left, Text on the right */}
       <div className="flex flex-col md:flex-row items-center bg-gradient-to-r from-blue-300 to-sky-400 h-screen">
         <div className="w-full md:w-1/2 p-4">
-          <div className="rounded-lg overflow-hidden h-full">
+          <div className="rounded-3xl overflow-hidden h-full md:h-[40rem] border-4 border-white shadow-lg">
             <video className="w-full h-full object-cover" autoPlay muted loop>
               <source src="Recording1.mp4" type="video/mp4" />
               Your browser does not support the video tag.
@@ -32,7 +32,7 @@ const ZPatternSection = () => {
           </p>
         </div>
         <div className="w-full md:w-1/2 p-4">
-          <div className="rounded-lg overflow-hidden h-full">
+          <div className="rounded-3xl overflow-hidden h-full md:h-[35rem] border-4 border-white shadow-xl">
             <video className="w-full h-full object-cover" autoPlay muted loop>
               <source src="Recording2.mp4" type="video/mp4" />
               Your browser does not support the video tag.
@@ -44,7 +44,7 @@ const ZPatternSection = () => {
       {/* Third Section: Video on the left, Text on the right */}
       <div className="flex flex-col md:flex-row items-center bg-gradient-to-r from-amber-200 to-yellow-500 h-screen">
         <div className="w-full md:w-1/2 p-4">
-          <div className="rounded-lg overflow-hidden h-full">
+          <div className="rounded-3xl overflow-hidden h-full md:h-[40rem] border-4 border-white shadow-lg">
             <video className="w-full h-full object-cover" autoPlay muted loop>
               <source src="Recording3.mp4" type="video/mp4" />
               Your browser does not support the video tag.
