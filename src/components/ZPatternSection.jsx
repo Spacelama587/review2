@@ -2,7 +2,7 @@ import React from 'react';
 
 const ZPatternSection = () => {
   return (
-    <div className="container mx-auto py-28 h-full">
+    <div className="container mx-auto  h-full">
       {/* First Section: Video on the left, Text on the right */}
       <div className="flex flex-col md:flex-row items-center bg-gradient-to-r from-blue-300 to-sky-400 h-screen">
         <div className="w-full md:w-1/2 p-4">
@@ -16,7 +16,7 @@ const ZPatternSection = () => {
         <div className="w-full md:w-1/2 p-4">
           <h2 className="text-xl font-semibold mb-4">Psychological Astrology Report</h2>
           <h1 className="text-3xl font-bold mb-4">Exploring the Depths of Psychological Astrology</h1>
-          <p className="text-base">
+          <p className="text-lg">
             Explore the profound insights offered by <strong>Psychological Astrology Report</strong>, where the alignment of celestial bodies illuminates deeper truths about your psyche. Dive into our personalized analyses and discover how planetary influences shape your journey. <a href="#" className="underline">Learn more</a> about unlocking the mysteries of your inner self.
           </p>
         </div>
@@ -27,7 +27,7 @@ const ZPatternSection = () => {
         <div className="w-full md:w-1/2 p-4 order-last md:order-first">
           <h2 className="text-xl font-semibold mb-2">AI Astrologer</h2>
           <h1 className="text-3xl font-bold mb-4">Harnessing AI for Personalized Insights</h1>
-          <p className="text-base">
+          <p className="text-lg">
             Delve into the future with our AI Astrologer, combining advanced algorithms with astrological wisdom to provide personalized predictions. Explore your birth chart, uncover hidden patterns, and gain clarity on relationships, career, and more. Trust AI Astrologer to navigate life's uncertainties with precision and insight.
           </p>
         </div>
@@ -54,7 +54,7 @@ const ZPatternSection = () => {
         <div className="w-full md:w-1/2 p-4">
           <h2 className="text-xl font-semibold mb-2">Discover Your Path</h2>
           <h1 className="text-3xl font-bold mb-4">Insightful Guidance for Every Journey</h1>
-          <p className="text-base">
+          <p className="text-lg">
             Embrace clarity and foresight with our comprehensive astrology service. Whether seeking direction in relationships, career decisions, or personal growth, our expert astrologers provide personalized readings tailored to your unique journey. Unlock the wisdom of the stars and discover profound insights that empower your life choices.
           </p>
         </div>
