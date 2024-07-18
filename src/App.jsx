@@ -16,6 +16,7 @@ import ResponsiveComponent from './components/TabComponent'
 
 import { TextParallaxContentExample } from './components/TextParallaxContentExample'
 import VerticalAccordion from './components/VerticalAccordion'
+import ZPatternSection from './components/ZPatternSection'
 
 
 
@@ -27,6 +28,7 @@ function App() {
   <Navbar />
   <Header />
    {/* <TabComponent /> */}
+   <ZPatternSection></ZPatternSection>
    <ResponsiveComponent />
     <AuroraHero />
     <BouncyCardsFeatures />
